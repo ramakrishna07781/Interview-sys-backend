@@ -1,8 +1,7 @@
 # This file tells Railway exactly how to build and run your app.
 
-# Explicitly request both Python and Node.js environments.
-# This is the key fix for the "npm: command not found" error.
-providers = ["python", "nodejs"]
+# CORRECTED: Change "nodejs" to "node"
+providers = ["python", "node"]
 
 # Define the build phase
 [phases.build]
@@ -12,5 +11,4 @@ cmds = ["npm install --prefix interview-app && npm run build --prefix interview-
 # Define the start phase
 [start]
 # This is the command to run your Gunicorn server.
-# This replaces the need for a Procfile.
 cmd = "gunicorn PEC_app:app"
