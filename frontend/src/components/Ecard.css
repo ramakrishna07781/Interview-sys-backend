@@ -1,0 +1,126 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.box-container{
+    display: flex;
+    justify-content:space-around;
+    padding: 0%;
+    margin-top: 2%;
+}
+
+
+.box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.heading{
+    display: flex;
+    width:fit-content;
+    height: fit-content;
+    gap: .7rem;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+.heading h2{
+    width: fit-content;
+    font-size: large;
+    font-weight: 500;
+}
+.content{
+    /* overflow: hidden; */
+    font-size: small;
+    width: 90%;
+    text-align: left;
+}
+
+.code-image{
+    width: 93%;
+    margin:0rem auto;
+    padding: 0%;
+    /* opacity: 55%; */
+    transform: translateY(3rem);
+
+}
+.e-learn{
+    margin: -22% 0% 0% 4%;
+}
+.elearn-head{
+    display: flex;
+}
+.elearn-head-img{
+    /* width: 100%; */
+}
+.bg-gradient{
+
+}
+.elearn-head-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1%;
+    width: 80%;
+    padding: 1.8rem 0rem;
+    background-image: linear-gradient(90deg,rgb(13, 13, 17),rgb(15,15,20),rgb(13, 13, 17));
+    
+}
+.elearn-head-content h1{
+    color: #d9d9d9;
+    text-align: left;
+    font-size: 2.4rem;
+}
+.elearn-head-content p{
+    text-align: left;
+    color: #a6a6a6;
+    /* width: max-content; */
+    font-size: .95rem;
+}
+.elearn-body{
+border:.8px solid #232323;
+border-bottom: none;
+border-radius: 2rem;
+margin: 9%;
+position: relative;
+background-color:  rgba(10, 12, 18, 1);
+z-index: 2000;
+}
+.elearn-image-container,.box-container{
+    /* width: fit-content; */
+}
+
+/* lines code */
+.elearn-box{
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 0% 8%;
+    z-index: -2;
+}
+.elearn-left-box{
+    width: 50%;
+    height: 35rem;
+}
+.elearn-box1{
+    height: 20%;
+    border-right: 1px solid #2a2b2c;
+    border-bottom: 1px solid #2a2b2c;
+    border-radius: .5rem;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    z-index: -2;
+    margin-left: 3%;
+
+}
+.elearn-box2{
+    height: 80%;
+    border-radius: .6rem;
+    margin:-.1% 1%;
+    border-left: 1px solid #2a2b2c;
+    border-top: 1px solid #2a2b2c;
+    border-bottom: 1px solid #2a2b2c;
+    border-top-right-radius: 0%;
+}

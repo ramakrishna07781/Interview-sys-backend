@@ -1,0 +1,213 @@
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, rgb(120, 47, 255) 0%, rgb(185, 132, 255) 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em rgb(184, 146, 255);
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 8px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em rgb(149, 91, 255);
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em rgb(160, 109, 255);
+  }
+
+  .file-upload-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .file-upload-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .file-upload-text {
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .file-upload-container:hover .file-upload-text {
+    color: #3498db; 
+  }
+  
+  .Documents-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    margin-top : 1rem;
+    height: 45px;
+    border: none;
+    padding: 0px 15px;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 83);
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .folderContainer {
+    width: 40px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  .fileBack {
+    z-index: 1;
+    width: 80%;
+    height: auto;
+  }
+  .filePage {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.3s ease-out;
+  }
+  .fileFront {
+    width: 85%;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    opacity: 0.95;
+    transform-origin: bottom;
+    transition: all 0.3s ease-out;
+  }
+  .text {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .Documents-btn:hover .filePage {
+    transform: translateY(-5px);
+  }
+  .Documents-btn:hover {
+    background-color: rgb(58, 58, 94);
+  }
+  .Documents-btn:hover .fileFront {
+    transform: rotateX(30deg);
+  }
+    
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .file-upload-container {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .file-upload-icon {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .file-upload-text {
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .file-upload-container:hover .file-upload-text {
+    color: #3498db; 
+  }
+
+  
+  .image-preview {
+    max-width: 50%;
+  }
+  
+  .extracted-textarea {
+    flex: 1;
+    height: 400px;
+    width : 500px;
+    margin-top: 4rem;
+    padding: 10px;
+    overflow:scroll;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    resize: none;
+  }
+  
+  .evaluate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8rem;
+    margin-top : 1rem;
+    height: 45px;
+    border: none;
+    padding: 0px 15px;
+    border-radius: 5px;
+    background-color: rgb(49, 49, 83);
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+   }
+   
+   .evaluate span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   .evaluate span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   .evaluate:hover span {
+    padding-right: 15px;
+   }
+   
+   .evaluate:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+   .button-container{
+    display : flex;
+    width : 50%;
+    justify-content : space-evenly
+   }
+
+   .evlink:hover{
+    text-decoration : none;
+   }
+  

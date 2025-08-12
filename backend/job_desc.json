@@ -1,0 +1,12 @@
+{
+  "python": {
+    "role": "python",
+    "title": "python developer",
+    "skills": "python,sql,oops",
+    "eligibility": "cse",
+    "location": "chennai",
+    "duration": "15 min",
+    "level": "medium",
+    "addons": ""
+  }
+}

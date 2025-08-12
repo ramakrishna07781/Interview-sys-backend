@@ -1,0 +1,82 @@
+.resume-builder , .Mock-interview, .box-3 {
+margin: 5% auto;
+}
+.box-3 .animation-line2,.Mock-interview .animation-line2  {
+    margin:  auto;
+}
+.resume-builder{
+    /* background-color: rgb(0, 76, 52); */
+}
+ .resume-content, .mock-content{
+    margin: auto;
+    padding:1rem;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1% auto 3%;
+    width: 80%;
+    background-image: linear-gradient(90deg,rgb(13, 14, 17),rgb(15,15,20),rgb(13, 13, 17));
+}
+.content h1{
+    font-size:3rem;
+    font-weight: 300;
+    color:#d9d9d9;
+   letter-spacing: 0cap;
+   /* margin-top: -2rem; */
+}
+.content p{
+    width: 40%;
+    color: #c2bebe;
+   font-size: .96rem;
+   margin-top: -.5rem;
+   
+}
+
+.resumepic{
+    width: 85%;
+    /* opacity: 75%; */
+}
+.mock-content{
+    /* border: 2px solid red; */
+    width: 80%;
+    padding: 10rem auto;
+    background-image: linear-gradient(90deg,rgb(13, 14, 17),rgb(15,15,20),rgb(13, 13, 17));
+}
+.ai-logos{
+    /* border: 2px solid ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-logo-box{
+    display: flex;
+    width:23%;
+    /* border: 2px solid white; */
+}
+.ai-logo-box .animation-line2{
+    margin: auto;
+ }
+.ai-logo-lines{
+    width: 11.5rem;
+    height: 5rem;
+    border: 1px solid #2a2b2c;
+    border-top: none;
+    border-radius: 5px;
+    margin-top: -10px;
+    z-index: -1;
+}
+.ai-vertical-line{
+    width: 1px;
+    height: 3rem;
+    border: 1px solid #2a2b2c;
+}
+.mock-vertical-line{
+    width: 1px;
+    height: 2.5rem;
+    border: 1.55px solid #454545;
+    margin:-3px auto 3rem;
+}

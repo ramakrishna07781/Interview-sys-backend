@@ -1,0 +1,38 @@
+/* body{
+    background-color: rgb(253, 254, 248);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    padding: 5%;
+    margin: 1% auto;
+}
+.name,.about,.skills, .education,.experience {
+    
+    border-bottom: 2px solid black;
+    padding: 10px 0%;
+
+}
+h1{
+    font-size: 45px;
+    font-weight: 600;
+margin-bottom: 0%;
+}
+h2{
+    font-weight: 600;
+}
+h1,h2{
+    color: rgb(3, 3, 91);
+    margin:0px 0px 20px 0px;
+}
+.degree-title,.exp-title{
+    display: flex;
+    justify-content: space-between;
+}
+.degree-title,.exp-title p{
+    font-weight: bold;
+    font-style: italic;
+} */

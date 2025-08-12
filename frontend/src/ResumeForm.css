@@ -1,0 +1,228 @@
+body {
+    background-color: rgb(253, 254, 248);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 5%;
+    margin: 1% auto;
+}
+
+.name,
+.about,
+.skills,
+.education,
+.experience {
+    /* width: 80%; */
+    border-bottom: 2px solid black;
+    padding: 10px 0%;
+
+}
+
+.heading h1 {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0%;
+}
+
+.heading h2 {
+    font-weight: 600;
+}
+
+.heading {
+    color: rgb(3, 3, 91);
+    margin: 0px 0px 20px 0px;
+}
+
+.degree-title,
+.exp-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.degree-title,
+.exp-title p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.resume-builder-bg {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, #f7f8fa 60%, #e3f0fa 100%);
+    padding: 0;
+    margin: 0;
+}
+
+.resume-form-advanced {
+    max-width: 1200px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 32px #0002;
+    padding: 2.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.resume-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #2196F3;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.resume-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    width: 100%;
+}
+
+.resume-col {
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.resume-form-advanced label {
+    font-weight: 600;
+    color: #232327;
+    margin-bottom: 0.2rem;
+}
+
+.resume-form-advanced input,
+.resume-form-advanced textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1.5px solid #b6c6e3;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    background: #f7f8fa;
+    color: #232327;
+    transition: border 0.2s;
+}
+
+.resume-form-advanced input:focus,
+.resume-form-advanced textarea:focus {
+    border: 1.5px solid #2196F3;
+    outline: none;
+}
+
+.dynamic-section {
+    display: flex;
+    gap: 0.5rem;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.add-btn,
+.remove-btn {
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.3rem;
+    margin-left: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.add-btn {
+    background: #e3f0fa;
+    color: #2196F3;
+}
+
+.add-btn:hover {
+    background: #b3e5fc;
+}
+
+.remove-btn {
+    background: #fff0f0;
+    color: #f44336;
+}
+
+.remove-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.remove-btn:hover:not(:disabled) {
+    background: #ffcdd2;
+}
+
+.skills-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.chip {
+    background: #e3f0fa;
+    color: #2196F3;
+    border-radius: 16px;
+    padding: 4px 14px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.chip:hover {
+    background: #2196F3;
+    color: #fff;
+}
+
+.chip-suggested {
+    background: #c8e6ff;
+    color: #1769aa;
+    border: 1.5px dashed #2196F3;
+}
+
+.chip-suggested:hover {
+    background: #2196F3;
+    color: #fff;
+}
+
+.ai-suggestion {
+    background: #f7f8f8;
+    color: #232327;
+    border-radius: 6px;
+    padding: 8px;
+    margin-top: 4px;
+    font-size: 14px;
+}
+
+.ai-loading {
+    color: #2196F3;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+@media (max-width: 900px) {
+    .resume-form-advanced {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .resume-row {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+}

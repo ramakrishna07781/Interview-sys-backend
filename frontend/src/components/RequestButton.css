@@ -1,0 +1,24 @@
+.button button {
+    background: linear-gradient(90deg,#0F1015, #222642);
+    border: 1px solid #6776fd;
+    height: 46px;
+    width: 19rem;
+    /* margin: 1rem; */
+    font-size: 1rem;
+    color: #414dbe;
+    border-radius: 6px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 1px;
+}
+.hero-button{
+    margin: 0%;
+}
+
+.dialog{
+    background-color: rgb(13, 13, 17);
+}
+
+.hero-button1{
+    margin:0% auto;
+} 

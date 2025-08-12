@@ -1,0 +1,45 @@
+.signup-container {
+    max-width: 480px;
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(79, 78, 78);
+    border-radius: 8px;
+    text-align: left;
+    display: grid;
+}
+
+.label {
+    color: rgb(145, 145, 145);
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    margin: .6rem 0;
+    border-radius: 6px;
+    border: none;
+    text-align: left;
+    color: rgb(117, 117, 117);
+    background-color: rgb(69, 69, 69);
+    box-sizing: border-box;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 15px 0;
+}
+
+.register-link {
+    color: #f39c12;
+    text-decoration: underline;
+    font-weight: bold;
+}

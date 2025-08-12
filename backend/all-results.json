@@ -1,0 +1,163 @@
+[
+  {
+    "username": null,
+    "questions": [
+      {
+        "question": "Describe your experience with Python, focusing on relevant libraries for data science.",
+        "answer": "python"
+      },
+      {
+        "question": "Walk me through your SQL skills, including experience with different database systems.",
+        "answer": "okay"
+      },
+      {
+        "question": "Which data science certifications do you hold, and what did you learn from them?",
+        "answer": "yeah"
+      },
+      {
+        "question": "Tell me about a data science project you're particularly proud of.  What challenges did you face?",
+        "answer": "okay"
+      },
+      {
+        "question": "How did you use Python in your most recent data science project?",
+        "answer": "very well"
+      },
+      {
+        "question": "What was your role in the database design and management in one of your projects?",
+        "answer": "okay"
+      },
+      {
+        "question": "What was the biggest takeaway from obtaining your data science certifications?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Explain the technical details of a project you completed that involved substantial SQL querying.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How did you choose the appropriate statistical methods in one of your projects?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Can you detail a project where you had to overcome a data quality issue?  How did you solve it?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Describe a time you had to communicate complex technical findings to a non-technical audience.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Which Python libraries are you most proficient in and why?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "What are the limitations of the certifications you hold, and how have you overcome them through additional learning?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "What project are you most proud of and why? What was the business impact?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How would you approach building a machine learning model from scratch using Python and SQL?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Describe a project that involved significant data cleaning and preprocessing.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Give an example of a time your SQL skills were crucial to completing a project successfully.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How have your certifications helped you in your previous roles or projects?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Tell me about a project that involved handling large datasets. What techniques did you use?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "What is a project you'd like to work on in the future and why?  What skills would be needed?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How have you improved your Python skills outside of formal training or certifications?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Describe your experience using different SQL dialects.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Describe a situation where you had to debug a complex SQL query. How did you approach it?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Which certification are you most proud of achieving and what was the learning process like?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Compare and contrast two of your projects, highlighting different methodologies used.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How do your certifications complement your Python and SQL skills in the context of data science?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Give an example of how you've used version control (e.g., Git) in your projects.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Describe a project where you had to choose the right algorithm or model for a specific problem.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How have you applied your knowledge of statistics in your data science projects?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "What are some common SQL pitfalls you have encountered and how have you avoided them?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "What's your preferred method for data visualization and how have you used it in projects?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Describe a time you had to work with incomplete or ambiguous data. How did you handle it?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "How do you stay current with the latest advancements in data science?",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Given the candidate answered \"Python\" to a previous question (presumably about their preferred programming language), a relevant follow-up question could be:\n\n\"Can you tell me about a time you used Python to solve a challenging problem?  Walk me through your approach and the solution.\"  This allows the candidate to demonstrate their practical skills and problem-solving abilities.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Given the candidate's response of \"okay\" and an empty context, it's impossible to determine the next relevant interview question.  The \"okay\" is too vague.  To proceed, I need more information about the previous question and the overall interview context (e.g., what kind of job is it, what stage of the interview is this, what are the candidate's qualifications).\n\nFor example, if the previous question was \"Are you comfortable working in a fast-paced environment?\", a follow-up could be \"Can you give me an example of a time you thrived in a high-pressure situation?\".\n\nPlease provide the context of the previous question.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Given the extremely limited information (\"yeah\" and an empty context), it's impossible to formulate a relevant follow-up interview question.  To ask a relevant question, I need more context about the previous question.  For example:\n\n* **What was the previous question?**  The answer \"yeah\" could be appropriate to many different questions (e.g., \"Are you familiar with Python?\", \"Do you have any questions for me?\", \"Did you enjoy your previous role?\").\n\n* **What is the job being interviewed for?**  This drastically changes the appropriate line of questioning.\n\nPlease provide more context.",
+        "answer": ""
+      },
+      {
+        "question": "Given the candidate's response \"I don't know,\" and no context, the next question depends heavily on what was *previously* asked.  However, here are a few options, depending on the likely previous question:\n\n**Options, depending on the context of the previous question:**\n\n* **If the previous question was factual:**  \"That's okay.  Can you tell me what resources you would use to find that information?\" (This assesses problem-solving skills and resourcefulness.)\n\n* **If the previous question involved a technical skill:** \"I understand.  Let's explore a related area.  Can you explain [a simpler, related concept]?\" (This allows the candidate to demonstrate knowledge in a related area and avoids immediate failure.)\n\n* **If the previous question was about a hypothetical situation:**  \"Can you walk me through your thought process on how you would approach this problem, even if you don't know the specific answer?\"  (This probes problem-solving and critical thinking skills.)\n\n* **If the previous question was about a specific experience:** \"That's fine.  Can you tell me about a time you faced a similar challenge and how you handled it?\" (This shifts the focus from knowledge recall to experience and problem-solving.)\n\n\nTo give a more precise next question, please provide the context of the *previous* question.",
+        "answer": "i dont know"
+      },
+      {
+        "question": "Given the candidate's response \"I don't know\" and an empty context, the next question depends heavily on what was *previously* asked.  Without that information, I can only offer some general follow-up strategies:\n\n**Option 1 (If the question was factual):**\n\n\"That's okay.  Can you tell me what resources you would use to find the answer to that question?\"  This assesses their research skills and resourcefulness.\n\n**Option 2 (If the question was about a specific skill or experience):**\n\n\"I understand.  Can you describe a situation where you faced a similar challenge, even if the specifics were different? What approach did you take?\"  This probes for transferable skills and problem-solving abilities.\n\n**Option 3 (If the question was about a technical skill):**\n\n\"Can you tell me about your general understanding of [relevant topic]? What aspects of [relevant topic] are you most familiar with?\" This allows the candidate to showcase what they *do* know, without directly answering the original question.\n\n**Option 4 (If the question was open-ended and complex):**\n\n\"That's alright. Let's break this down.  What are some of the key components or considerations involved in [rephrase the question, focusing on a specific aspect]?\" This simplifies the question, making it easier for the candidate to answer.\n\n**In short:**  To provide a truly relevant next question, please provide the context of the *previous* question.",
+        "answer": ""
+      }
+    ]
+  },
+  {
+    "username": "unknown",
+    "undefined": ""
+  }
+]

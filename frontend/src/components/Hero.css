@@ -1,0 +1,70 @@
+.hero {
+    display: flex;
+    padding: 3% 7.5%;
+    background-color : black;
+}
+
+.left {
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 4% 0%;
+}
+
+.left .hero-button{
+    width:45%;
+    padding:.4rem 1rem;
+    font-size: 14px;
+    font-family: Inter;
+    border-radius: 20px;
+    align-items: center;
+    display:flex;
+    justify-content:center;
+    border:none;
+  
+}
+
+.left h1 {
+    width: 97%;
+    font-size: 2.6rem;
+    font-weight: 500;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.left p {
+    width: 80%;
+    font-size: large;
+    font-weight: bold;
+    font-weight: 500;
+    color: rgb(120, 120, 120);
+    text-align: left;
+}
+.brand{
+    font-weight: 600;
+    color: rgb(183, 183, 32);
+}
+.typing-div{
+    display: flex;
+justify-content: flex-start;
+}
+.right {
+    width: 50%;
+    overflow: hidden;
+}
+
+.right img {
+    width: 130%;
+    /* scale: 1.1; */
+    transform: translateX(-13%);
+    padding: 0%;
+    overflow-x: hidden;
+    background-color : black;
+}
+.heropic{
+    width: 85%;
+}

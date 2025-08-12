@@ -1,0 +1,76 @@
+.pagination-content {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 3.3rem;
+  }
+  
+  .image-list {
+    display: flex;
+    justify-content: space-evenly;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .pag-img {
+   scale: 1;
+  }
+
+  .buttons{
+    position: absolute;
+    right: 10%;
+    bottom : 20%;
+  }
+  
+  .pagination-button {
+    position: absolute;
+    right : 1rem;
+    font-size: 18px;
+    border: none;
+    height:2.1rem;
+    width : 2.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* color: #e6e6e6; */
+    cursor: pointer;
+    background-color: transparent;
+  }
+  
+  .pagination-button:first-child {
+    right: 3rem;
+  }
+  
+  .pagination-button:last-child {
+    transform: translateY(.23em);
+    right: 0;
+  }
+  
+.Certifications{
+  margin-top: 5%;
+  text-align: center;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Certifications-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certification-para{
+    font-size:1rem;
+    font-weight:400;
+    letter-spacing: 1px;
+    color : rgb(190, 190, 190);
+    width : 38%;
+
+}
+.certification-head{
+  margin-bottom: 1%;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
