@@ -11,7 +11,7 @@ import random
 
 # Serve React static files using Flask's static_folder/static_url_path
 REACT_BUILD_DIR = os.path.join(os.path.dirname(__file__), 'interview-app', 'build')
-app = Flask(__name__, static_folder=REACT_BUILD_DIR, static_url_path='')
+app = Flask(__name__)
 CORS(app)
 # @app.route('/')
 # def serve_react_app():
@@ -1068,13 +1068,13 @@ def get_user_skill_assessments():
 #     return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
 # Serve React static files and index.html for all non-API routes
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-def serve_react(path):
-    if path != "" and os.path.exists(os.path.join(REACT_BUILD_DIR, path)):
-        return send_from_directory(REACT_BUILD_DIR, path)
-    else:
-        return send_from_directory(REACT_BUILD_DIR, 'index.html')
+# @app.route('/', defaults={'path': ''})
+# @app.route('/<path:path>')
+# def serve_react(path):
+#     if path != "" and os.path.exists(os.path.join(REACT_BUILD_DIR, path)):
+#         return send_from_directory(REACT_BUILD_DIR, path)
+#     else:
+#         return send_from_directory(REACT_BUILD_DIR, 'index.html')
 
 if __name__ == '__main__':
     app.run()
