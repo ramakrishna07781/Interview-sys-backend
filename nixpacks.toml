@@ -1,7 +1,7 @@
 # This file tells Railway exactly how to build and run your app.
 
 # CORRECTED: Change "nodejs" to "node"
-providers = ["python", "node"]
+providers = ["python", "nodejs"]
 
 # Define the build phase
 [phases.build]
